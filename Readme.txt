@@ -15,3 +15,5 @@ CHẠY CHƯƠNG TRÌNH
 tải và cài đặt tại: https://ngrok.com/
 
 Hiện tại có thể giao tiếp với hệ thống thông qua POST request đến địa chỉ máy chủ (local hoặc public của ngrok) với json format {"domain":"<domain cần quét>"}
+
+VÍ DỤ: curl -i -H "Content-Type: application/json" -X POST -d '{"domain":"http://tuoitre.vn"}' https://65d7de85.ngrok.io
