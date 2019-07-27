@@ -1,0 +1,16 @@
+﻿<LỖI 1>https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle
+<LỖI 2>https://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo
+
+
+Lỗi gặp phải: khi install OpenWPM
+Có hai đoạn script gây ra lỗi trong file build-extension.sh cùng cấp với install.sh, build-extention.sh được gọi từ install.sh: 
+1. npm install: gây <LỖI 1>
+2. npm run build: gây <LỖI 2>
+
+CÁCH GIẢI QUYẾT:
+1. Chạy install.sh đến khi bị lỗi với npm
+2. Mở build-extention.sh chạy từng câu lệnh đến lệnh
+npm install: gặp lỗi có mã elifecycle --> cách giải quyết ở stackoverflow lỗi 1
+npm run build: gặp lỗi EACCES --> cách giải quyết tương tự ở stackoverflow lỗi 2
+
+3. Chạy lại install.sh
