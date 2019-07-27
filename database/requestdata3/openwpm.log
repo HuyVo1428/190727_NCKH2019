@@ -1,0 +1,99 @@
+2019-07-27 08:53:31,177 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Spawn attempt 0 
+2019-07-27 08:53:31,316 - MainProcess[MainThread] - deploy_firefox       - DEBUG   : BROWSER 1: Saved extension config file to: /tmp/tmpynx2170y/browser_params.json
+2019-07-27 08:53:32,410 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1564192412410	mozrunner::runner	INFO	Running command: "/home/huy/2myproject/documents/openwpm/firefox-bin/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mAAw3MTa0Mdd"
+2019-07-27 08:53:33,290 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1564192413289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+2019-07-27 08:53:33,290 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1564192413290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+2019-07-27 08:53:33,290 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1564192413290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+2019-07-27 08:53:33,290 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1564192413290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+2019-07-27 08:53:36,180 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-07-27 08:53:36,670 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1564192416670	Marionette	INFO	Listening on port 36463
+2019-07-27 08:53:36,748 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1564192416748	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-07-27 08:53:36,798 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1564192416797	addons.xpi	WARN	Failed to parse recommendation: TypeError: NetworkError when attempting to fetch resource. No traceback available
+2019-07-27 08:53:36,862 - MainProcess[MainThread] - deploy_firefox       - DEBUG   : BROWSER 1: OpenWPM Firefox extension loaded
+2019-07-27 08:53:36,886 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2019-07-27 08:53:36,912 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Looking for extension port information in /tmp/rust_mozprofile.mAAw3MTa0Mdd/
+2019-07-27 08:53:36,913 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Connecting to extension on port 38129
+2019-07-27 08:53:36,914 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: BrowserManager ready.
+2019-07-27 08:53:36,915 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Browser spawn sucessful!
+2019-07-27 08:53:36,918 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: console.log: WebExtensions: Wrote to /tmp/rust_mozprofile.mAAw3MTa0Mdd/extension_port.txt
+2019-07-27 08:53:36,971 - MainProcess[MainThread] - TaskManager          - INFO    : 
+
+OpenWPM Version: b'@openwpm/webext-instrumentation@0.4.0-52-ga337b52'
+Firefox Version: b'68.0'
+
+========== Manager Configuration ==========
+{
+  "aggregator_address": [
+    "127.0.0.1",
+    37697
+  ],
+  "data_directory": "../database/requestdata3/",
+  "database_name": "../database/requestdata3/crawl-data.sqlite",
+  "failure_limit": null,
+  "log_directory": "../database/requestdata3/",
+  "log_file": "../database/requestdata3/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    46341
+  ],
+  "num_browsers": 1,
+  "output_format": "local",
+  "screenshot_path": "../database/requestdata3/screenshots",
+  "source_dump_path": "../database/requestdata3/sources",
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "crawl_id": 0,
+  "adblock-plus": 1,
+  "bot_mitigation": 2,
+  "browser": 3,
+  "cookie_instrument": 4,
+  "disable_flash": 5,
+  "disconnect": 6,
+  "donottrack": 7,
+  "extension_enabled": 8,
+  "ghostery": 9,
+  "headless": 10,
+  "http_instrument": 11,
+  "https-everywhere": 12,
+  "js_instrument": 13,
+  "navigation_instrument": 14,
+  "prefs": 15,
+  "random_attributes": 16,
+  "save_all_content": 17,
+  "save_javascript": 18,
+  "tp_cookies": 19,
+  "tracking-protection": 20,
+  "ublock-origin": 21
+}
+
+  0  1      2      3        4      5      6      7      8     9      10    11    12     13     14     15    16     17     18     19      20     21
+---  -----  -----  -------  -----  -----  -----  -----  ----  -----  ----  ----  -----  -----  -----  ----  -----  -----  -----  ------  -----  -----
+  1  False  False  firefox  False  False  False  False  True  False  True  True  False  False  False  {}    False  False  False  always  False  False
+
+========== Input profile tar files ==========
+  No profile tar files specified
+
+========== Output (archive) profile dirs ==========
+  No profile archive directories specified
+
+
+2019-07-27 08:53:36,971 - MainProcess[MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2019-07-27 08:53:37,072 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Joining command thread
+2019-07-27 08:53:37,074 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('GET', 'http://yhshop.com.ng\n', 0, 1)
+2019-07-27 08:53:37,146 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 1
+2019-07-27 08:53:41,192 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 2
+2019-07-27 08:53:46,227 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-07-27 08:53:47,083 - MainProcess[Thread-2  ] - TaskManager          - INFO    : BROWSER 1: Timeout while executing command, GET, killing browser manager
+2019-07-27 08:53:47,084 - MainProcess[Thread-2  ] - TaskManager          - DEBUG   : BROWSER 1: Browser restart required
+2019-07-27 08:53:49,087 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: 12.014255 seconds to join command thread
+2019-07-27 08:53:49,087 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Killing browser manager...
+2019-07-27 08:53:49,088 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Attempting to kill BrowserManager with pid 4461. Display PID: 4473 | Display Port: 1005 | Browser PID: 4512
+2019-07-27 08:53:49,088 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Screen lockfile (/tmp/.X1005-lock) already removed
+2019-07-27 08:53:49,107 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Geckodriver process already killed.
+2019-07-27 08:53:49,114 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Sending the shutdown signal to the LocalAggregator listener process...
+2019-07-27 08:53:49,238 - MainProcess[MainThread] - BaseAggregator       - INFO    : Received shutdown signal!
+2019-07-27 08:53:52,247 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : LocalAggregator took 3.1322457790374756 seconds to close.

@@ -1,0 +1,4 @@
+curl -i -H "Content-Type: application/json" -X POST -d '{"domain":"http://tuoitre.vn"}' https://65d7de85.ngrok.io
+
+
+https://hosts-file.net/?s=Browse&f=2019
